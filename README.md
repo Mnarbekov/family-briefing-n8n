@@ -2,6 +2,8 @@
 
 A small morning automation that sends my family one short message each day with what's coming up, so we stop forgetting the little things.
 
+This repo is a demo-safe version. It explains how the automation works and includes a small example workflow you can import, but no real calendar, chat, or family data.
+
 ## Why I built it
 
 Between family, work, sport, and normal logistics, it's easy to forget something. My wife and I keep a shared calendar where we both add appointments, school items, travel prep, car servicing, and anything that needs doing before it becomes stressful.
@@ -26,17 +28,19 @@ The morning Telegram briefing, using demo events and weather.
 
 The flow: gather calendar and weather, shape the message, send it to Telegram.
 
-## How it works
+## What's in this repo
 
-The whole thing runs as an automation built in n8n. On a morning schedule it gathers the calendar events and weather, turns them into one short and readable message, and delivers it to our family chat. It's meant to be practical and quiet, not another app to open.
+- `examples/workflow-demo.json` — a small example n8n workflow you can import to see the shape and wiring. It uses placeholder addresses and demo values, so it won't send anything real.
+- `examples/README.md` — what the example workflow contains and how to open it.
+- `docs/architecture.md` — a short walkthrough of how the briefing is put together.
 
 ## Privacy
 
-This public repo uses demo content only. Our real calendar, messages, family details, and chat are private and are not included here.
+This is a demo-safe version. Our real calendar, messages, family details, chat, and any keys stay private and are not in this repo. Everything in the example workflow is invented.
 
 ## Built with AI assistance
 
-I'm not a software developer. I spotted the everyday problem, decided how the briefing should read, and used AI and automation tools to help build it. The point is reducing forgotten logistics with one small, reliable habit.
+I'm not a software developer. I spotted the everyday problem, decided how the briefing should read, and used AI and automation tools (n8n) to help build it. The point is reducing forgotten logistics with one small, reliable habit.
 
 ## Related
 
