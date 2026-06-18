@@ -45,5 +45,5 @@ I'm not a software developer. I spotted the everyday problem, decided how the br
 ## Related
 
 - Portfolio: https://www.mikhailnarbekov.com
-- Medium story: coming soon
+- Medium story: https://medium.com/@mikhail.narbekov/meet-mrs-maggie-the-ai-assistant-who-briefs-my-family-every-morning-5a590e3e0a00
 - GitHub: https://github.com/Mnarbekov
